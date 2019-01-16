@@ -1,0 +1,28 @@
+---
+layout: default
+title: CSMS Lab - Research
+categories:
+ - research
+---
+
+<div class="bighead">Current Research Projects</div>
+<div class="bigspacer"></div>
+
+{% for project in site.categories.research %}
+    {% cycle 'add rows': '<div class="row">', nil %}
+		<div class="col-md-6 projectbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ project.url }}">
+    				<img width=100 class="media-object" src="{{ project.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
+    				<p class="note">{{ project.blurb }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+        </div>
+    {% cycle 'close rows': nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '</div>', '</div>' %}

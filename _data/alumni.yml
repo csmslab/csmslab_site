@@ -1,0 +1,154 @@
+#- name:
+#  degree:
+#  gradyear:
+#  current:
+
+- name: Tao Xiong
+  degree: Ph.D.
+  gradyear: 2017
+  current: JPMorgan Chase & Co.
+
+- name: Jamal Molin
+  degree: Ph.D.
+  gradyear: 2017
+  current: DoD
+
+- name: Martina Leistner
+  degree: Ph.D.
+  gradyear: 2016
+  current: CorTec
+
+- name: Jie (Jack) Zhang
+  degree: Ph.D.
+  gradyear: 2016
+  current: MIT
+
+- name: Xiaoyo Guo
+  degree: Ph.D.
+  gradyear: 2014
+  current: Apple
+
+- name: Kevin Mazurek
+  degree: Ph.D.
+  gradyear: 2013
+  current: University of Rochester
+
+- name: Andre Harrison
+  degree: Ph.D.
+  gradyear: 2012
+  current: U.S. Army Research Lab
+
+- name: Garrick Orchard
+  degree: Ph.D.
+  gradyear: 2012
+  current: Singapore Institute for Neurotechnology
+
+- name: Alex Russell
+  degree: Ph.D.
+  gradyear: 2012
+  current: hmm?
+
+- name: Timothy Advani
+  degree: M.S.E.E.
+  gradyear: 2012
+  current: Learn. Do. Share.
+
+- name: Christian Brändli
+  degree: Ph.D.
+  gradyear: 2010
+  current: Institute of Neuroinformatics
+
+- name: Kartikeya Murari
+  degree: Ph.D.
+  gradyear: 2010
+  current: University of Calgary
+
+- name: Shane Woolwine
+  degree: Ph.D.
+  gradyear: 2010
+  current: BrainScope Company Incorporated
+
+- name: Fopefolu Folowosele
+  degree: Ph.D.
+  gradyear: 2010
+  current: McKinsey & Company
+
+- name: Srinjoy Mitra
+  degree: Ph.D.
+  gradyear: 2010
+  current: IMEC
+
+- name: Helen Schwerdt
+  degree: Ph.D.
+  gradyear: 2009
+  current: Arizona State University
+
+- name: Ndubuisi Ekekwe
+  degree: Ph.D.
+  gradyear: 2009
+  current: Analog Devices Inc.
+
+- name: Ralf Philipp
+  degree: hmm??
+  gradyear: 2008
+  current: hmm??
+
+- name: Clyde Clarke
+  degree: Ph.D.
+  gradyear: 2008
+  current: Johns Hopkins University
+
+- name: Francesco Tenore
+  degree: Ph.D.
+  gradyear: 2008
+  current: JHU Applied Physics Laboratory
+
+- name: Jacob Vogelstein
+  degree: Ph.D.
+  gradyear: 2008
+  current: Johns Hopkins University
+
+- name: Mike Chi
+  degree: Ph.D.
+  gradyear: 2007
+  current: University of California, San Diego
+
+- name: David Orr
+  degree: Ph.D.
+  gradyear: 2007
+  current: JHU Applied Physics Laboratory
+
+- name: Swati Mehta
+  degree: Ph.D.
+  gradyear: 2006
+  current: Canesta
+
+- name: Viktor Gruev
+  degree: Ph.D.
+  gradyear: 2005
+  current: Washington University, St Louis
+
+- name: Katherine Tsai
+  degree: Ph.D.
+  gradyear: 2005
+  current: Stanford University
+
+- name: Udayan Mallik
+  degree: Ph.D.
+  gradyear: 2004
+  current: NASA
+
+- name: Zi Rong Xu
+  degree: M.S.E.E.
+  gradyear: 2001
+  current: Temple University School of Medicine
+
+- name: Mark Nesky
+  degree: M.S.E.E.
+  gradyear: 2001
+  current: EVI Technology
+
+- name: Viswabharath Reddy
+  degree: M.S.E.E.
+  gradyear: 2001
+  current: Analog Devices
