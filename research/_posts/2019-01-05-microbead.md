@@ -1,8 +1,10 @@
 ---
-layout: paper
+layout: research
 title: The Microbead Electrode
 image: /images/research/microbead-graphic.png
-researchtag: microbead
+project: microbead
+team:
+    - Adam Khalifa
 blurb: A micro-scale implantable bead that is small enough (<100 µm in diameter) so that multiple devices, potentially swarms of them, can be “injected” into the brain at different locations for neural recording and stimulation.
 ---
 

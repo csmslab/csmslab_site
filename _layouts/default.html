@@ -67,12 +67,12 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-element">
 					<ul class="nav navbar-nav navbar-right">
-						{% if page.categories.first == 'blog' %}
+						{% if page.categories.first == 'research' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/blog/">Blog</a>
+						<a href="/research/">Research</a>
 						</li>
 						{% if page.categories.first == 'papers' %}
 						<li class="active">
@@ -81,18 +81,18 @@
 						{% endif %}
 						<a href="/papers/">Papers</a>
 						</li>
-						{% if page.categories.first == 'research' %}
-						<li class="active">
-						{% else %}
-						<li>
-						{% endif %}
-						<a href="/research/">Research</a></li>
 						{% if page.categories.first == 'team' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
 						<a href="/team/">Team</a></li>
+						{% if page.categories.first == 'blog' %}
+						<li class="active">
+						{% else %}
+						<li>
+						{% endif %}
+						<a href="/blog/">Blog</a></li>
 					</ul>
 				</div>
 			</div>
@@ -105,34 +105,35 @@
 
 	</div>
 
-	<div id="footer"><span style="display:none">foo</span></div>
 
+<!--
+
+	<footer class="footer">
+		<div id="footer">
+		 <nav class="navbar navbar-footer navbar-fixed-bottom">
+		   <div class="container">
+			 <div class="navbar-header">
+			   <button type="button" class="navbar-toggle" data-toggle="collapse">
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+			   </button>
+			 </div>
+			 <div class="collapse navbar-collapse">
+			   <ul class="nav navbar-nav navbar-left navbar-text">
+				 <li><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
+				 <li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
+			   </ul>
+			   <ul class="nav navbar-nav navbar-right navbar-text">
+				 <li><a href='/about.html#joining-the-lab'>Join</a></li>
+				 <li><a href='/about.html#contact'>Contact</a></li>
+				 <li><a href='/about.html#site-design'>About</a></li>
+			   </ul>
+		   </div>
+		   </div>
+		 </nav>
+		</div>
+	</footer>
+-->
 </body>
-
-<!-- Static bottom navbar -->
-<nav class="footernav navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle" data-toggle="collapse">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	</div>
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse">
-	  <ul class="nav navbar-nav navbar-left navbar-text">
-		<li><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
-		<li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
-	  </ul>
-	  <ul class="nav navbar-nav navbar-right navbar-text">
-		<li><a href='/about.html#joining-the-lab'>Join</a></li>
-		<li><a href='/about.html#contact'>Contact</a></li>
-		<li><a href='/about.html#site-design'>About</a></li>
-	  </ul>
-	</div><!-- /.navbar-collapse -->
-  </div>
-</nav>
-
-
 </html>

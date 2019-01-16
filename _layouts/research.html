@@ -6,17 +6,11 @@ layout: default
 	<div class="col-md-12">
 		<div class="media">
 			{% if page.image %}
-			<img class="pull-left pad-right media-object" src="{{ page.image }}">
+			<img class="pull-right pad-left media-object" src="{{ page.image }}">
 			{% endif %}
 			<div class="media-body titlebox">
 				<div class="title media-heading">
 					{{ page.title }}
-				</div>
-				<p>
-				<div class="smallhead">
-					{{ page.authors }}
-					{{ page.year }}.
-					{{ page.journal }}
 				</div>
 			</div>
 		</div>
@@ -29,39 +23,26 @@ layout: default
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
-			{% if page.pdf %}
-			<div class="smallhead">
-				PDF
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
-			</div>
-			<div class="bigspacer"></div>
+
+			<!-- TODO: Find a smarter way to do this team linking thing -->
+			{% if page.team %}
+				<div class="smallhead">
+					Team member(s)
+				</div>
+				{% for researcher in page.team %}
+					<div class="pad-left note">
+						<div class="smallspacer"></div>
+						<i class="fa fa-user"></i>
+					{% for member in site.categories.team %}
+						{% if member.title == researcher %}
+							<a class="off" href="{{ member.url }}">{{ member.title }}</a>
+						{% endif %}
+					{% endfor %}
+					</div>
+				{% endfor %}
+				<div class="bigspacer"></div>
 			{% endif %}
-			{% if page.supplement %}
-			<div class="smallhead">
-				Supplement
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
-			{% if page.doi %}
-			<div class="smallhead">
-				DOI
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
+
 			{% if page.github %}
 			<div class="smallhead">
 				GitHub
@@ -73,6 +54,22 @@ layout: default
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+
+			<!-- TODO: Limit number of publications that will show up -->
+			<div class="smallhead">
+				Publications
+			</div>
+			{% assign check=0 %}
+			{% for paper in site.categories.papers %}
+				{% if paper.project == page.project %}
+					<div class="pad-left note">
+						<div class="smallspacer"></div>
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
+					</div>
+				{% endif %}
+			{% endfor %}
+
 		</div>
 	</div>
 	<div class="col-md-8">

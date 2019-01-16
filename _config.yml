@@ -25,10 +25,10 @@ title : Computational Sensory-Motor Systems Lab
 # TODO
 tagline: Computational neuromorphic approaches to perception and action.
 institution:
-  url: https://www.jhu.edu
+  url: "https://www.jhu.edu"
   name: The Johns Hopkins University
 department:
-  url: https://ece.jhu.edu
+  url: "https://ece.jhu.edu"
   name: Electrical & Computer Engineering
 author :
   name : Adam Cellon
@@ -44,4 +44,4 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : csmslab
+#production_url : csmslab
