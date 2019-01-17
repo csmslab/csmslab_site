@@ -45,5 +45,6 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 #production_url : csmslab
+root: /
 baseurl: /
-url: csmslab.github.io
+url: https://csmslab.github.io
