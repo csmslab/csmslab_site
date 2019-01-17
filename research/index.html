@@ -8,12 +8,17 @@ categories:
 <div class="bighead">Current Research Projects</div>
 <div class="bigspacer"></div>
 
+{% assign memberindex = 0 %}
 {% for project in site.categories.research %}
-    {% cycle 'add rows': '<div class="row">', nil %}
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign columnindex = memberindex | modulo: 2 %}
+	{% if columnindex == 1 %} <!-- open a new row -->
+		<div class="row">
+	{% endif %}
 		<div class="col-md-6 projectbox">
 			<div class="media">
   				<a class="pull-left" href="{{ project.url }}">
-    				<img width=100 class="media-object" src="{{ project.image }}">
+    				<img width=200 class="media-object" src="{{ project.image }}">
   				</a>
  			 	<div class="media-body">
     				<div class="head media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
@@ -23,6 +28,14 @@ categories:
 			<div class="bigspacer"></div>
 			<div class="spacer"></div>
         </div>
-    {% cycle 'close rows': nil, '</div>' %}
+	{% if columnindex == 0 %}
+		</div>
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
+	{% endif %}
 {% endfor %}
-{% cycle 'close rows': '</div>', '</div>' %}
+{% if columnindex != 0 %}
+	</div>
+	<div class="bigspacer"></div>
+	<div class="bigspacer"></div>
+{% endif %}

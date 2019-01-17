@@ -47,4 +47,4 @@ author :
 #production_url : csmslab
 root: /
 baseurl: /
-url: https://csmslab.github.io
+url: http://csmslab.github.io
