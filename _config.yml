@@ -1,28 +1,4 @@
-# name: Bedford Lab Research
-# description: Science updates on evolution, epidemiology and immunology from the Bedford lab at the Fred Hutch
-# url: http://bedford.io
-#
-# markdown: redcarpet
-# permalink: /:categories/:title/
-# future: true
-
-
-# This is the default format.
-# For more see: http://jekyllrb.com/docs/permalinks/
-# permalink: /:categories/:year/:month/:day/:title
-# permalink: /:categories/:title # is equivalent to the following:
-permalink: none
-
-# exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace"]
-# highlighter: rouge
-
-markdown: kramdown
-
-# TODO
-# repository: drummondlab/drummondlab.github.io
-
 title : Computational Sensory-Motor Systems Lab
-# TODO
 tagline: Computational neuromorphic approaches to perception and action.
 institution:
   url: "https://www.jhu.edu"
@@ -30,21 +6,5 @@ institution:
 department:
   url: "https://ece.jhu.edu"
   name: Electrical & Computer Engineering
-author :
-  name : Adam Cellon
-  email : acellon@jhu.edu
-  github : acellon
-#  feedburner : feedname
-
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.io, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-#production_url : csmslab
-#root: /
-baseurl: /
-url: http://csmslab.github.io
+permalink: none
+markdown: kramdown
