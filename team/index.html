@@ -5,6 +5,8 @@ categories:
  - team
 ---
 
+<!-- TODO: ADD PICTURES OF PEOPLE -->
+
 <div class="row">
 	<div class="col-md-12">
 		<div class="title">
@@ -65,7 +67,15 @@ categories:
 			<div class="media">
  			 	<div class="media-body">
     				<div class="head"><p>{{ alum.name }}</p></div>
-    				<p class="note">{{alum.degree}} {{alum.gradyear}}, now at {{ alum.current }}</p>
+					{% if alum.gradyear %}
+						{% if alum.current %}
+    						<p class="note">{{alum.degree}} {{alum.gradyear}}, now at {{ alum.current }}</p>
+						{% else %}
+							<p class="note">{{alum.degree}} {{alum.gradyear}}</p>
+						{% endif %}
+					{% else %}
+						<p class="note">{{alum.degree}}</p>
+					{% endif %}
   				</div>
 			</div>
 			<div class="bigspacer"></div>

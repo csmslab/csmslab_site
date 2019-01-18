@@ -3,152 +3,192 @@
 #  gradyear:
 #  current:
 
+# TODO add visiting students
+# CHECK Mailing list
+# Sudarshan (?)
+
+- name: Elena Mancinelli
+  degree: Visiting Researcher
+  gradyear: 2018
+
+- name: Fabio Marcuccio
+  degree: Visiting Researcher
+  gradyear: 2018
+
 - name: Tao Xiong
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2017
   current: JPMorgan Chase & Co.
 
 - name: Jamal Molin
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2017
   current: DoD
 
+- name: Chetan Singh Thakur
+  degree: Postdoc
+  gradyear: 2017
+  current: Indian Institute of Science
+
 - name: Martina Leistner
-  degree: Ph.D.
+  degree: MSE
   gradyear: 2016
   current: CorTec
 
+- name: Alia Nasrallah
+  degree: MSE
+  gradyear: 2016
+  current: UCLA
+
+- name: Eleonora Costa
+  degree: Visiting Researcher
+  gradyear: 2016
+  current: PwC
+
+- name: Maria Alfaro Ponce
+  degree: Visiting Researcher
+  current: Universidad Autonoma del Estado de Hidalgo
+
 - name: Jie (Jack) Zhang
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2016
   current: MIT
 
+- name: Vigil Varghese
+  degree: Visiting Researcher
+  current: Australian Centre for Field Robotics
+
+- name: Bimpe Ogunmoyero
+  degree: MSE
+  gradyear: 2015
+  current: Intel
+
 - name: Xiaoyo Guo
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2014
   current: Apple
 
 - name: Kevin Mazurek
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2013
   current: University of Rochester
 
 - name: Andre Harrison
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2012
   current: U.S. Army Research Lab
 
 - name: Garrick Orchard
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2012
   current: Singapore Institute for Neurotechnology
 
 - name: Alex Russell
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2012
   current: hmm?
 
 - name: Timothy Advani
-  degree: M.S.E.E.
+  degree: MSE
   gradyear: 2012
   current: Learn. Do. Share.
 
 - name: Christian Brändli
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2010
-  current: Institute of Neuroinformatics
+  current: iniLabs
 
 - name: Kartikeya Murari
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2010
   current: University of Calgary
 
 - name: Shane Woolwine
-  degree: Ph.D.
+  degree: MSE
   gradyear: 2010
   current: BrainScope Company Incorporated
 
 - name: Fopefolu Folowosele
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2010
-  current: McKinsey & Company
+  current: Applied Predictive Technologies
 
 - name: Srinjoy Mitra
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2010
-  current: IMEC
+  current: University of Edinburgh
 
 - name: Helen Schwerdt
-  degree: Ph.D.
+  degree: MSE
   gradyear: 2009
-  current: Arizona State University
+  current: MIT
 
 - name: Ndubuisi Ekekwe
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2009
-  current: Analog Devices Inc.
+  current: Fasmicro Group
 
 - name: Ralf Philipp
-  degree: hmm??
+  degree: PhD
   gradyear: 2008
-  current: hmm??
+  current: Hoffmann Warnick, LLC
 
 - name: Clyde Clarke
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2008
-  current: Johns Hopkins University
+  current: AC4S
 
 - name: Francesco Tenore
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2008
   current: JHU Applied Physics Laboratory
 
 - name: Jacob Vogelstein
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2008
-  current: Johns Hopkins University
+  current: Cage Pharma
 
 - name: Mike Chi
-  degree: Ph.D.
+  degree: B.S.
   gradyear: 2007
-  current: University of California, San Diego
+  current: Cognionics, Inc.
 
 - name: David Orr
-  degree: Ph.D.
+  degree: B.S.
   gradyear: 2007
   current: JHU Applied Physics Laboratory
 
 - name: Swati Mehta
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2006
-  current: Canesta
+  current: Microsoft Research
 
 - name: Viktor Gruev
-  degree: Ph.D.
+  degree: PhD
   gradyear: 2005
-  current: Washington University, St Louis
+  current: University of Illinois, Urbana-Champaign
 
 - name: Katherine Tsai
-  degree: Ph.D.
+  degree: MSE
   gradyear: 2005
-  current: Stanford University
+  current: Harvey Mudd College
 
 - name: Udayan Mallik
-  degree: Ph.D.
+  degree: MSE
   gradyear: 2004
   current: NASA
+  # TODO google
 
 - name: Zi Rong Xu
-  degree: M.S.E.E.
+  degree: MSE
   gradyear: 2001
-  current: Temple University School of Medicine
+  current: Bayhealth Medical Center
 
 - name: Mark Nesky
-  degree: M.S.E.E.
+  degree: MSE
   gradyear: 2001
-  current: EVI Technology
 
 - name: Viswabharath Reddy
-  degree: M.S.E.E.
+  degree: MSE
   gradyear: 2001
-  current: Analog Devices
+  current: Verizon Wireless
