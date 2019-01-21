@@ -3,9 +3,17 @@ layout: default
 title: CSMS Lab - Team
 categories:
  - team
+image_sliders:
+ - team_slider
 ---
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    {% include slider.html selector="team_slider" %}
+  </div>
+</div>
 
-<!-- TODO: ADD PICTURES OF PEOPLE -->
+<div class="bigspacer"></div>
+<hr>
 
 <div class="row">
 	<div class="col-md-12">
@@ -26,7 +34,7 @@ categories:
 	<div class="col-md-4 memberbox">
 		<div class="media">
 				<a class="pull-left" href="{{ member.url }}">
-				<img width=160 class="media-object" src="{{ member.image }}">
+				<img width=160 class="media-object img-thumbnail" src="{{ member.image }}">
 				</a>
 			 	<div class="media-body">
 				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -45,8 +53,15 @@ categories:
 	<div class="bigspacer"></div>
 	<div class="bigspacer"></div>
 {% endif %}
-
-
+<!--
+{% if page.slider %}
+  <div class="row">
+    <div class="column-md-12">
+      {% include slider.html height="50" unit="%" transition="slide" duration="7" %}
+    </div>
+  </div>
+{% endif %}
+-->
 <div class="row">
 	<div class="col-md-12">
 		<div class="title">
@@ -56,6 +71,7 @@ categories:
 </div>
 
 <div class="bigspacer"></div>
+<hr>
 {% assign memberindex = 0 %}
 {% for alum in site.data.alumni %}
 	{% assign memberindex = memberindex | plus: 1 %}

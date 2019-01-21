@@ -1132,6 +1132,13 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.member-photo {
+	display: block;
+	height: 20vw;
+    min-height: 100px;
+    max-height: 225px;
+}
+
 hr {
   margin-top: 22px;
   margin-bottom: 22px;

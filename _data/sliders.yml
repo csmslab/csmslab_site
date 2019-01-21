@@ -1,0 +1,18 @@
+# team page slider
+- selector: team_slider
+  captions: true
+  images:
+    - src: /images/team/slider/kickball-2018.png
+      alt: The lab's 2018 winning kickball team.
+    - src: /images/team/slider/old-lab-sitting.jpg
+      alt:
+    - src: /images/team/slider/old-lab-sitting.jpg
+      alt:
+    - src: /images/team/slider/kickball-2016.jpg
+      alt: The lab's 2016 winning kickball team
+    - src: /images/team/slider/coffee-at-brody.png
+      alt:
+  settings:
+    height: "'16:9'"
+    maxheight: "400"
+    effect: "'fade'"

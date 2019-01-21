@@ -1,0 +1,14 @@
+---
+layout: paper
+title: Saliency-driven image acuity modulation on a reconfigurable array of spiking silicon neurons
+image:
+authors: Vogelstein RJ, Mallik U, Culurciello E, Cauwenberghs G, and Etienne-Cummings R.
+year: 2004
+ref: Vogelstein _et al._ 2004. NIPS 17.
+journal: Advances in Neural Information Processing Systems 17
+pdf:
+doi:
+---
+
+# Abstract
+We have constructed a system that uses an array of 9,600 spiking silicon neurons, a fast microcontroller, and digital memory, to implement a reconfigurable network of integrate-and-fire neurons. The system is designed for rapid prototyping of spiking neural networks that require high-throughput communication with external address-event hardware. Arbitrary network topologies can be implemented by selectively routing address-events to specific internal or external targets according to a memory-based projective field mapping. The utility and versatility of the system is demonstrated by configuring it as a three-stage network that accepts input from an address-event imager, detects salient regions of the image, and performs spatial acuity modulation around a high-resolution fovea that is centered on the location of highest salience.
