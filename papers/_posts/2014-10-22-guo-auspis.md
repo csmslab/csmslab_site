@@ -8,6 +8,7 @@ ref: Guo et al. 2014. PLoS ONE.
 journal: "PLoS ONE 9(10)"
 pdf: /files/papers/guo-auspis.pdf
 doi: 10.1371/journal.pone.0104262
+project: auspis
 ---
 
 # Abstract

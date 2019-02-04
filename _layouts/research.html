@@ -4,14 +4,9 @@ layout: default
 
 <div class="row">
 	<div class="col-md-12">
-		<div class="media">
-			{% if page.image %}
-			<img class="pull-right pad-left media-object" src="{{ page.image }}">
-			{% endif %}
-			<div class="media-body titlebox">
-				<div class="title media-heading">
-					{{ page.title }}
-				</div>
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				{{ page.title }}
 			</div>
 		</div>
 	</div>
@@ -24,7 +19,6 @@ layout: default
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
 
-			<!-- TODO: Find a smarter way to do this team linking thing -->
 			{% if page.team %}
 				<div class="smallhead">
 					Team member(s)
@@ -33,11 +27,16 @@ layout: default
 					<div class="pad-left note">
 						<div class="smallspacer"></div>
 						<i class="fa fa-user"></i>
+						{% assign printed = false %}
 					{% for member in site.categories.team %}
 						{% if member.title == researcher %}
-							<a class="off" href="{{ member.url }}">{{ member.title }}</a>
+							<a class="off" href="{{ member.url }}">{{ researcher }}</a>
+							{% assign printed = true %}
 						{% endif %}
 					{% endfor %}
+						{% unless printed %}
+							{{ researcher }}
+						{% endunless %}
 					</div>
 				{% endfor %}
 				<div class="bigspacer"></div>
@@ -55,27 +54,35 @@ layout: default
 			<div class="bigspacer"></div>
 			{% endif %}
 
-			<!-- TODO: Limit number of publications that will show up -->
-			<div class="smallhead">
-				Publications
-			</div>
-			{% assign check=0 %}
 			{% for paper in site.categories.papers %}
-				{% if paper.project == page.project %}
-					<div class="pad-left note">
-						<div class="smallspacer"></div>
-						<i class="fa fa-file-text-o fa-fw"></i>
-						<a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
-					</div>
-				{% endif %}
+			{% if paper.project == page.project %}
+			{% assign papersq = true %}
+			{% endif %}
 			{% endfor %}
+
+			{% if papersq %}
+				<div class="smallhead">
+					Publications
+				</div>
+				{% assign check=0 %}
+				{% for paper in site.categories.papers %}
+					{% if paper.project == page.project %}
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>
+							<a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
+							<div class="smallspacer"></div>
+						</div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 
 		</div>
 	</div>
-	<div class="col-md-8">
+	<div class="col-md-9">
 		<div class="post">
 			{{ content }}
 		</div>
 	</div>
-	<div class="col-md-1"></div>
 </div>
+<div class="bigspacer"></div>

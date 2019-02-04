@@ -8,6 +8,7 @@ ref: Guo _et al._ 2014.
 journal:
 pdf:
 doi: 10.1007/978-3-319-10470-6_50
+project: auspis
 ---
 
 # Abstract

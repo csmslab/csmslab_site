@@ -1,8 +1,6 @@
 ---
 ---
-
 // TODO: customize all this!
-
 @import "/css/bootstrap/bootstrap.less";
 @brand-primary: #DD2D2D;
 @line-height-base: 1.6;
@@ -15,44 +13,63 @@
 @pre-bg: #f8f8f8;
 @nav-pills-active-link-hover-bg: @navbar-default-bg;
 @nav-pills-active-link-hover-color: @gray;
-
 @import "/css/font-awesome/font-awesome.less";
 @fa-font-path: "font";
-
 @import "/css/solarized.less";
 @import "/css/katex.less";
 
-h1, .h1 { font-size: floor(@font-size-base * 2.50); } /* ~34px */
-h2, .h2 { font-size: floor(@font-size-base * 2.15); } /* ~30px */
-h3, .h3 { font-size: ceil(@font-size-base * 1.70); }  /* ~24px */
-h4, .h4 { font-size: ceil(@font-size-base * 1.25); }  /* ~18px */
-h5, .h5 { font-size:  @font-size-base; }
-h6, .h6 { font-size: ceil(@font-size-base * 0.85); }  /* ~12px */
+.h1,
+h1 {
+	font-size: floor(@font-size-base * 2.50);
+}
+/* ~34px */
+.h2,
+h2 {
+	font-size: floor(@font-size-base * 2.15);
+}
+/* ~30px */
+.h3,
+h3 {
+	font-size: ceil(@font-size-base * 1.70);
+}
+/* ~24px */
+.h4,
+h4 {
+	font-size: ceil(@font-size-base * 1.25);
+}
+/* ~18px */
+.h5,
+h5 {
+	font-size: @font-size-base;
+}
 
+.h6,
+h6 {
+	font-size: ceil(@font-size-base * 0.85);
+}
+/* ~12px */
 // 20px gutter
 .reduced-gutter.row {
-  margin-right: -10px;
-  margin-left: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
 }
+
 .reduced-gutter {
-  padding-right: 10px;
-  padding-left: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
-
 /* typekit */
-
 .wf-loading {
-    visibility: hidden;
+	visibility: hidden;
 }
+
 .wf-active {
 	visibility: visible;
 }
-
 /* general */
-
 .container {
-  padding-left: 25px;
-  padding-right: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 h1,
@@ -66,17 +83,15 @@ h6 {
 }
 
 .center {
-     float: none;
-     margin-left: auto;
-     margin-right: auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .text-center {
-     text-align: center;
+	text-align: center;
 }
-
 /* logo */
-
 .logo {
 	width: 60px;
 	height: 60px;
@@ -94,27 +109,25 @@ h6 {
 	display: table-cell;
 	vertical-align: middle;
 }
-
 /* navbar */
-
 .navbar-brand {
 	font-size: 30px;
 	font-weight: 100;
 	/* Museo */
 }
+
 .navbar-nav {
 	font-size: 30px;
 	font-weight: 100;
 	/* Museo */
 }
+
 .navbar-text {
 	font-size: 15px;
 	font-weight: 300;
 	/* Museo */
 }
-
 /* headings */
-
 .bigtitle {
 	font-size: 60px;
 	line-height: 55px;
@@ -132,14 +145,14 @@ h6 {
 .bighead {
 	font-size: 32px;
 	font-weight: 300;
-	line-height:36px;
+	line-height: 36px;
 	/* Museo */
 }
 
 .head {
 	font-size: 24px;
 	font-weight: 300;
-	line-height:30px;
+	line-height: 30px;
 	/* Museo */
 }
 
@@ -171,9 +184,7 @@ h6 {
 .text-dark-gray {
 	color: @gray;
 }
-
 /* other */
-
 body {
 	font-weight: 300;
 }
@@ -203,12 +214,12 @@ a.off {
 }
 
 pre {
-    overflow-x: auto;
+	overflow-x: auto;
 }
 
 pre code {
-    overflow-wrap: normal;
-    white-space: pre;
+	overflow-wrap: normal;
+	white-space: pre;
 }
 
 table {
@@ -222,7 +233,7 @@ img {
 
 img.offset {
 	float: right;
-	margin: 12px 0px 10px 15px;
+	margin: 12px 0 10px 15px;
 }
 
 img.avatar {
@@ -230,46 +241,46 @@ img.avatar {
 }
 
 .post img {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+	float: none;
+	margin: 10px auto;
 }
 
 .post iframe {
-  padding-top: 10px;
-  padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 blockquote {
 	.text-gray;
+
 	p {
-    font-size: (@font-size-base * 1.00);
-    }
+		font-size: (@font-size-base * 1.00);
+	}
 }
 
 .breadcrumb {
-	padding: 0px 0px;
+	padding: 0;
 	background-color: @body-bg;
+
 	> li {
 		&+li:before {
-			padding: 0px;
+			padding: 0;
 			content: "\00a0@{breadcrumb-separator}\00a0";
 		}
+
 		&+li:after {
-			padding: 0px;
+			padding: 0;
 		}
 	}
 }
 
 .feedbox {
-    height: 320px;
-    overflow: hidden;
+	height: 320px;
+	overflow: hidden;
 	-webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
-/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
-/*	        box-shadow: inset 0 -30px 10px -10px white; */
+	/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
+	/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
+	/*	        box-shadow: inset 0 -30px 10px -10px white; */
 }
 
 .postbox {
@@ -284,15 +295,20 @@ blockquote {
 	min-height: 120px;
 }
 
-.memberbox {
-
-}
+.memberbox {}
 
 .member-photo {
 	display: block;
 	height: 20vw;
-    min-height: 100px;
-    max-height: 225px;
+	min-height: 100px;
+	max-height: 225px;
+}
+
+.research-image {
+	display: block;
+	height: 30vw;
+	min-height: 100px;
+	max-height: 225px;
 }
 
 .talkbox {
@@ -330,50 +346,136 @@ blockquote {
 }
 
 .centered-pills {
-    text-align: center
+	text-align: center;
 }
+
 .centered-pills ul.nav-pills {
-    display: inline-block
+	display: inline-block;
 }
+
 .centered-pills li {
-    display: inline
+	display: inline;
 }
+
 .centered-pills a {
-    float: left
-}
-* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
-    display: inline
+	float: left;
 }
 
+* html .centered-pills ul.nav-pills,
+*+html .centered-pills ul.nav-pills {
+	display: inline;
+}
+
+.banner {
+	.center;
+	position: relative;
+}
+
+.banner > img {
+	.center;
+	opacity: 0.9;
+	max-width: 100%;
+	min-width: 400px;
+	height: auto;
+}
+/*.banner-center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.banner-bigtitle {
+	.bigtitle;
+	font-weight: 300;
+	color: @pre-bg;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+}
 /* Infinite scroll */
-
 .infinite-spinner {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  background-color: #333;
-  margin: 60px auto;
-
-  -webkit-animation: scaleout 1.0s infinite ease-in-out;
-  animation: scaleout 1.0s infinite ease-in-out;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #333;
+	margin: 60px auto;
+	-webkit-animation: scaleout 1.0s infinite ease-in-out;
+	animation: scaleout 1.0s infinite ease-in-out;
 }
-
 @-webkit-keyframes scaleout {
-  0% { -webkit-transform: scale(0.0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
+	0% {
+		-webkit-transform: scale(0.0);
+	}
 
+	100% {
+		-webkit-transform: scale(1.0);
+		opacity: 0;
+	}
+}
 @keyframes scaleout {
-  0% {
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 100% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
+	0% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	}
+
+	100% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		opacity: 0;
+	}
+}
+//
+// Jumbotron
+// --------------------------------------------------
+
+.jumbotron {
+	padding: @jumbotron-padding (@jumbotron-padding / 2);
+	margin-bottom: @jumbotron-padding;
+	color: @jumbotron-color;
+	background-image: url("/images/cropped-bee.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.h1,
+	h1 {
+		color: @jumbotron-heading-color;
+		color: @pre-bg;
+		text-align: center;
+	}
+
+	p {
+		margin-bottom: (@jumbotron-padding / 2);
+		font-size: @jumbotron-font-size;
+		font-weight: 200;
+	}
+
+	> hr {
+		border-top-color: darken(@jumbotron-bg, 10%);
+	}
+
+	.container &,
+	.container-fluid & {
+		border-radius: @border-radius-large; // Only round corners at higher resolutions if contained in a container
+	}
+
+	.container {
+		max-width: 100%;
+	}
+	@media screen and (min-width: @screen-sm-min) {
+		padding: (@jumbotron-padding * 1.6) 0;
+
+		.container &,
+		.container-fluid & {
+			padding-left: (@jumbotron-padding * 2);
+			padding-right: (@jumbotron-padding * 2);
+		}
+
+		.h1,
+		h1 {
+			font-size: (@font-size-base * 4.5);
+		}
+	}
 }

@@ -5,11 +5,53 @@ categories:
  - research
 ---
 <!-- TODO: add research collaboration links - ernst, telluride, capocaccia, andreas, etc. -->
+<!-- TODO: add a thing in the left column for individual projects to name collaborators -->
 <div class="bighead">Current Research Projects</div>
 <div class="bigspacer"></div>
 
 {% assign memberindex = 0 %}
 {% for project in site.categories.research %}
+	{% if project.past %}
+		{% continue %}
+	{% endif %}
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign columnindex = memberindex | modulo: 2 %}
+	{% if columnindex == 1 %} <!-- open a new row -->
+		<div class="row">
+	{% endif %}
+		<div class="col-md-6 projectbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ project.url }}">
+    				<img width=200 class="media-object" src="{{ project.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
+    				<p class="note">{{ project.blurb }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+        </div>
+	{% if columnindex == 0 %}
+		</div>
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
+	{% endif %}
+{% endfor %}
+{% if columnindex != 0 %}
+	</div>
+	<div class="bigspacer"></div>
+{% endif %}
+
+<hr>
+<div class="bighead">Past Research Projects</div>
+<div class="bigspacer"></div>
+
+{% assign memberindex = 0 %}
+{% for project in site.categories.research %}
+	{% unless project.past %}
+		{% continue %}
+	{% endunless %}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign columnindex = memberindex | modulo: 2 %}
 	{% if columnindex == 1 %} <!-- open a new row -->
@@ -39,5 +81,3 @@ categories:
 	<div class="bigspacer"></div>
 	<div class="bigspacer"></div>
 {% endif %}
-
-<!-- TODO: ADD PREVIOUS PROJECTS BACK IN HERE AS WELL -->
