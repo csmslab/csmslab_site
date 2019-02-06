@@ -4,7 +4,7 @@ title: Adam Khalifa
 position: PhD Student
 email: akhalifa6@jhu.edu
 scholar: CFQg5bkAAAAJ
-image: /images/team/adam-khalifa.png
+image: /images/team/adam-khalifa.jpg
 # cv: /pdfs/team/alvason-li-cv.pdf
 # alumni: true
 ---

@@ -6,7 +6,7 @@ project: cs-neural-recording
 team:
     - Jack Zhang
     - Tao Xiong
-blurb: Using compressed-sensing techniques to condense entire neural signal waveforms using efficient on-chip circuits.
+blurb: Using compressed-sensing techniques to condense entire neural signal waveforms with efficient on-chip circuits.
 past: true
 ---
 

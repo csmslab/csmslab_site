@@ -1,6 +1,6 @@
 ---
 layout: research
-title: The Microbead Electrode
+title: Microbead Electrode
 image: /images/research/microbead-graphic.png
 project: microbead
 team:

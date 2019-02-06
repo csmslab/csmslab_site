@@ -3,7 +3,7 @@ layout: member
 title: John Rattray
 position: PhD Student
 email: jrattra1@jhu.edu
-image: /images/team/john-rattray.png
+image: /images/team/john-rattray.jpg
 # alumni: true
 ---
 

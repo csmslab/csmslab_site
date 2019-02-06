@@ -4,7 +4,7 @@ title: Patrick Huie
 position: Undergrad - Sophomore
 email: phuie1@jhu.edu
 # scholar:
-image: /images/team/patrick-huie.png
+image: /images/team/patrick-huie.jpg
 # cv: /pdfs/team/alvason-li-cv.pdf
 # alumni: true
 ---

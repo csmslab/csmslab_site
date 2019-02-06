@@ -17,4 +17,4 @@ Our model which is called as a proto-object based saliency model, is bottom-up f
 
 ![Proto-object visual saliency model diagram](/images/research/Fig2-ProtoObjectModel.png){:width="500vw"}
 
-Though the basic model employs simple features such as intensity, color, and orientation, it can be extended by adding other features used by biological visual process. Motion, depth information, and simple texture has been added to the model.
+Though the basic model employs simple features such as intensity, color, and orientation, it can be extended by adding other features used by biological visual process. Recent advances in the lab have added motion, depth information, and simple texture to the model.
