@@ -1,7 +1,7 @@
 ---
 layout: research
 title: Microbead Electrode
-image: /images/research/microbead-graphic.png
+image: /images/research/microbead-needle.png
 project: microbead
 team:
     - Adam Khalifa

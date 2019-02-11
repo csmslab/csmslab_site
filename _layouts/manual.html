@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="blog-post">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="media">
+				<div class="media-body">
+					<div class="title media-heading">
+						<a href="{{ page.url }}" class="off">{{ page.title }}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			{% if page.image %}
+			{% if page.link %}
+			<a href="{{ page.link }}">
+				<img class="offset" src="{{ page.image }}">
+			</a>
+			{% else %}
+			<img class="offset" src="{{ page.image }}">
+			{% endif %}
+			{% endif %}
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<div class="centered-pills">
+				<ul class="nav nav-pills note">
+					{% if page.prevpage %}
+						<li role="presentation">
+							<a class="off" href="{{ page.prevpage }}">
+								<i class="fa fa-arrow-left fa-fw"></i> Prev
+							</a>
+						</li>
+					{% endif %}
+					{% if page.nextpage %}
+						<li role="presentation">
+							<a class="off" href="{{ page.nextpage }}">
+								Next <i class="fa fa-arrow-right fa-fw"></i>
+							</a>
+						</li>
+					{% endif %}
+				</ul>
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+
+</div>
