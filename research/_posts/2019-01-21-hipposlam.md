@@ -8,3 +8,4 @@ team:
     - Adebayo Eisape
 blurb: Creating biologically-plausible Simultaneous Localization And Mapping (SLAM) and navigation algorithms based on rodent hippocampus and entorhinal cortex.
 ---
+Description coming soon.
