@@ -6,7 +6,7 @@ authors: Liu X, Zhang M, Xiong T, Richardson AG, Lucas TH, Chin PS, Etienne-Cumm
 year: 2016
 ref: Liu et al. 2016. IEEE BioCAS.
 journal: "IEEE BioCAS Vol. 10, No. 4"
-pdf: /files/papers/liu-compressed-sensing.pdf
+pdf: 
 doi: 10.1109/TBCAS.2016.2574362
 ---
 

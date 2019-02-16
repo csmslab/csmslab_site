@@ -4,7 +4,7 @@ title: "Contamination of equipment in emergency settings: An exploratory study w
 image:
 authors: Obasi C, Agwu A, Akinpelu W, Hammons R, Clark C, Etienne-cummings R, Hill P, Rothman R, Babalola S, Ross T, Carroll K, and Asiyanbola B.
 year: 2009
-ref: "Obasi _et al._ 2009. Annals of surgical innovation and research vol. 3, no. 1: 8."
+ref: "Obasi et al. 2009. Annals of surgical innovation and research vol. 3, no. 1: 8."
 journal: Annals of surgical innovation and research
 pdf:
 doi: 10.1186/1750-1164-3-8

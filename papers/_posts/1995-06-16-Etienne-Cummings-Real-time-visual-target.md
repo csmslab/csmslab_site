@@ -4,8 +4,8 @@ title: "Real-time visual target tracking: two implementations of velocity-based 
 image:
 authors: Etienne-Cummings R, Longo P, Van der Spiegel J, and Mueller P.
 year: 1995
-ref: Etienne-Cummings _et al._ 1995. PROCEEDINGS-SPIE THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING.
-journal: PROCEEDINGS-SPIE THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING
+ref: Etienne-Cummings et al. 1995. SPIE.
+journal: Proceedings - SPIE THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING
 pdf:
 doi: 10.1117/12.211982
 ---

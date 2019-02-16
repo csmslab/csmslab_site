@@ -4,7 +4,7 @@ title: "Which photodiode to use: a comparison of CMOS-compatible structures"
 image:
 authors: Murari K, Etienne-Cummings R, Thakor N, and Cauwenberghs G.
 year: 2009
-ref: "Murari _et al._ 2009. IEEE Sensors Journal vol. 9, no. 7: 752-760."
+ref: "Murari et al. 2009. IEEE Sensors Journal vol. 9, no. 7: 752-760."
 journal: IEEE Sensors Journal
 pdf:
 doi:

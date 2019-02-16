@@ -4,7 +4,7 @@ title: "The feeling of color: A haptic feedback device for the visually disabled
 image:
 authors: Tapson J, Diaz J, Sander D, Gurari N, Chicca E, Pouliquen P, and Etienne-Cummings R.
 year: 2008
-ref: Tapson _et al._ 2008.
+ref: Tapson et al. 2008.
 journal:
 pdf:
 doi:

@@ -4,7 +4,7 @@ title: "Active echo: a new paradigm for ultrasound calibration"
 image:
 authors: Guo X, Cheng A, Zhang HK, Kang H, Etienne-Cummings R, and Boctor EM.
 year: 2014
-ref: Guo _et al._ 2014.
+ref: Guo et al. 2014.
 journal:
 pdf:
 doi: 10.1007/978-3-319-10470-6_50

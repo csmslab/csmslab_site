@@ -4,7 +4,7 @@ title: A dictionary learning algorithm for multi-channel neural recordings
 image:
 authors: Xiong T, Suo Y, Zhang J, Liu S, Etienne-Cummings R, Chin S, and Tran TD.
 year: 2014
-ref: Xiong _et al._ 2014.
+ref: Xiong et al. 2014.
 journal:
 pdf:
 doi: 10.1109/BioCAS.2014.6981632

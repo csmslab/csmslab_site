@@ -4,7 +4,7 @@ title: Photoacoustic active ultrasound element for catheter tracking
 image:
 authors: Guo X, Tavakoli B, Kang H, Kang JU, Etienne-Cummings R, and Boctor EM.
 year: 2014
-ref: Guo _et al._ 2014.
+ref: Guo et al. 2014.
 journal:
 pdf:
 doi: 10.1117/12.2041625.short

@@ -4,7 +4,7 @@ title: Precision minimally invasive surgery by adaptive organ motion tracking an
 image:
 authors: Tomlin D, Thakral A, Wallace J, Etienne-Cummings R, and Thakor N.
 year: 2000
-ref: Tomlin _et al._ 2000. Annals of Biomedical Engineering vol. 28, SUPPL. 1.
+ref: Tomlin et al. 2000. Annals of Biomedical Engineering vol. 28, SUPPL. 1.
 journal: Annals of Biomedical Engineering
 pdf:
 doi:

@@ -4,7 +4,7 @@ title: A foveated silicon retina for two-dimensional tracking
 image:
 authors: Etienne-Cummings R, Van der Spiegel J, Mueller P, and Zhang M.
 year: 2000
-ref: "Etienne-Cummings _et al._ 2000. IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing vol. 47, no. 6: 504-517."
+ref: "Etienne-Cummings et al. 2000. IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing vol. 47, no. 6: 504-517."
 journal: "IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing"
 pdf:
 doi:

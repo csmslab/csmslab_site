@@ -4,8 +4,8 @@ title: A size and position invariant event-based human posture recognition algor
 image:
 authors: Chen S, Folowosele F, Kim D, Vogelstein RJ, Etienne-Cummings R, and Culurciello E.
 year: 2008
-ref: Chen _et al._ 2008.
-journal: 
+ref: Chen et al. 2008.
+journal:
 pdf:
 doi: 10.1109/BIOCAS.2008.4696930
 ---

@@ -4,7 +4,7 @@ title: "Live demonstration: A tactile perception system for sensing the visual w
 image:
 authors: Rhoades C, Advani T, Mazurek K, and Etienne-Cummings R.
 year: 2012
-ref: Rhoades _et al._ 2012.
+ref: Rhoades et al. 2012.
 journal:
 pdf:
 doi:

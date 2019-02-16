@@ -4,7 +4,7 @@ title: "Artificial neural networks: principles and VLSI implementation"
 image:
 authors: Van der Spiegel J, Mueller P, Blackman D, Donham C, Etienne-Cummings R, Aziz P, Choudhury A, Jones L, and Xin J.
 year: 1990
-ref: Van der Spiegel _et al._ 1990.
+ref: Van der Spiegel et al. 1990.
 journal:
 pdf:
 doi: 10.1117/12.26307

@@ -4,7 +4,7 @@ title: "Live demonstration: A closed loop Compressive Sensing neural recording s
 image:
 authors: Zhang J, Xiong T, Mitra S, Suo Y, Tran TD, Yazicioglu RF, and Etienne-Cummings R.
 year: 2014
-ref: Zhang _et al._ 2014.
+ref: Zhang et al. 2014.
 journal:
 pdf:
 doi:

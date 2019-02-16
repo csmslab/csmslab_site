@@ -4,7 +4,7 @@ title: "Modified Map-Seeking Circuit: Use of Computer-Aided Detection in Locatin
 image:
 authors: Asiyanbola B, Cheng-Wu C, Lewin JS, and Etienne-Cummings R.
 year: 2012
-ref: "Asiyanbola _et al._ 2012. Journal of Surgical Research vol. 175, no. 2: e47-e52."
+ref: "Asiyanbola et al. 2012. Journal of Surgical Research vol. 175, no. 2: e47-e52."
 journal: Journal of Surgical Research
 pdf:
 doi:

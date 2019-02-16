@@ -4,7 +4,7 @@ title: Saliency-driven image acuity modulation on a reconfigurable array of spik
 image:
 authors: Vogelstein RJ, Mallik U, Culurciello E, Cauwenberghs G, and Etienne-Cummings R.
 year: 2004
-ref: Vogelstein _et al._ 2004. NIPS 17.
+ref: Vogelstein et al. 2004. NIPS 17.
 journal: Advances in Neural Information Processing Systems 17
 pdf:
 doi:

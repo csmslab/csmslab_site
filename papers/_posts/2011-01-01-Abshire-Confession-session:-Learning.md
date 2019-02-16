@@ -4,7 +4,7 @@ title: "Confession session: Learning from others mistakes"
 image:
 authors: Abshire P, Bermak A, Bemer R, Cauwenberghs G, Chen S, Christen JB, Constandinou T, Culurciello E, Dandin M, Datta T, Delbruck T, Dudek P, Eftekhar A, Etienne-Cummings R, Indiveri G, Law MK, Linares-Barranco B, Tapson J, Tang W, and Zhai Y.
 year: 2011
-ref: Abshire _et al._ 2011.
+ref: Abshire et al. 2011.
 journal:
 pdf:
 doi:

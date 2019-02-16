@@ -4,7 +4,7 @@ title: A model of proto-object based saliency
 image: /images/papers/russell-a-model-of.jpg
 authors: Russell AF, Mihalaş S, Heydt, Niebur E, and Etienne-Cummings R.
 year: 2014
-ref: "Russell _et al._ 2014. Vision research, vol. 94: 1-15"
+ref: "Russell et al. 2014. Vision research, vol. 94: 1-15"
 journal: Vision research
 pdf: /files/oapapers/russell-a-model-of.pdf
 doi: 10.1016/j.visres.2013.10.005

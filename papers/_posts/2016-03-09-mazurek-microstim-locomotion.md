@@ -6,7 +6,7 @@ authors: Mazurek KA, Holinski BJ, Everaert DG, Mushahwar VK, Etienne-Cummings R.
 year: 2016
 ref: Mazurek et al. 2016. IEEE BioCAS.
 journal: "IEEE  BioCAS, vol. 10, no. 4: 902–911"
-pdf: /files/papers/mazurek-microstim-locomotion.pdf
+pdf: 
 doi: 10.1109/TBCAS.2015.2501419
 ---
 

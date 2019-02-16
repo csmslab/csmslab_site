@@ -4,7 +4,7 @@ title: Neuromorphic visual saliency implementation using stochastic computation
 image:
 authors: Thakur CS, Molin JL, Xiong T, Zhang J, Niebur E, and Etienne-Cummings R.
 year: 2017
-ref: Thakur _et al._ 2017. ISCAS.
+ref: Thakur et al. 2017. ISCAS.
 journal: 2017 IEEE International Symposium on Circuits and Systems (ISCAS)
 pdf:
 doi: 10.1109/ISCAS.2017.8050868

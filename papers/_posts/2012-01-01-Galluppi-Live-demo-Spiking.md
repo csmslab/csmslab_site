@@ -4,7 +4,7 @@ title: "Live demo: Spiking ratslam: Rat hippocampus cells in spiking neural hard
 image:
 authors: Galluppi F, Conradt J, Stewart T, Eliasmith C, Horiuchi T, Tapson J, Tripp B, Furber S, and Etienne-Cummings R.
 year: 2012
-ref: Galluppi _et al._ 2012.
+ref: Galluppi et al. 2012.
 journal:
 pdf:
 doi:

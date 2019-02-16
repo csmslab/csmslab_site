@@ -4,7 +4,7 @@ title: "HFirst: a temporal approach to object recognition"
 image:
 authors: Orchard G, Meyer C, Etienne-Cummings R, Posch C, Thakor N, and Benosman R.
 year: 2015
-ref: "Orchard _et al._ 2015. IEEE transactions on pattern analysis and machine intelligence vol. 37, no. 10: 2028-2040."
+ref: "Orchard et al. 2015. IEEE transactions on pattern analysis and machine intelligence vol. 37, no. 10: 2028-2040."
 journal: IEEE transactions on pattern analysis and machine intelligence
 pdf:
 doi:

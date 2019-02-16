@@ -4,7 +4,7 @@ title: Current mode image sensor with two transistors per pixel
 image:
 authors: Gruev V, Yang Z, Van der Spiegel J, and Etienne-Cummings R.
 year: 2010
-ref: "Gruev _et al._ 2010. IEEE Transactions on Circuits and Systems I: Regular Papers vol. 57, no. 6: 1154-1165."
+ref: "Gruev et al. 2010. IEEE Transactions on Circuits and Systems I: Regular Papers vol. 57, no. 6: 1154-1165."
 journal: "IEEE Transactions on Circuits and Systems I: Regular Papers"
 pdf:
 doi:

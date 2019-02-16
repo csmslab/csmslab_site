@@ -4,7 +4,7 @@ title: "ISCAS Special Session Demo: Wireless Video Sensor for Ad-hoc Networks"
 image:
 authors: Chi Y, Carpenter P, Colling K, Cauwenberghs G, and Etienne-Cummings R.
 year: 2007
-ref: Chi _et al._ 2007.
+ref: Chi et al. 2007.
 journal:
 pdf:
 doi:

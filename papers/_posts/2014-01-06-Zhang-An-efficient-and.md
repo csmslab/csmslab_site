@@ -4,7 +4,7 @@ title: An efficient and compact compressed sensing microsystem for implantable n
 image:
 authors: Zhang J, Suo Y, Mitra S, Chin SP, Hsiao S, Yazicioglu RF, Tran TD, and Etienne-Cummings R.
 year: 2014
-ref: "Zhang _et al._ 2014. IEEE transactions on biomedical circuits and systems vol. 8, no. 4: 485-496."
+ref: "Zhang et al. 2014. IEEE transactions on biomedical circuits and systems vol. 8, no. 4: 485-496."
 journal: IEEE transactions on biomedical circuits and systems
 pdf:
 doi: 10.1109/TBCAS.2013.2284254

@@ -4,10 +4,10 @@ title: "CPU-less robotics: distributed control of biomorphs"
 image:
 authors: Etienne-Cummings R, Lewis MA, Hartmann M, and Cohen AH.
 year: 2000
-ref: Etienne-Cummings _et al._ 2000.
+ref: Etienne-Cummings et al. 2000.
 journal:
 pdf:
-doi: 10.1117/12.409207.short
+doi: 10.1117/12.409207
 ---
 
 # Abstract

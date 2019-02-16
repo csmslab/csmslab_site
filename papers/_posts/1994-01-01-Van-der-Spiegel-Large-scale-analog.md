@@ -4,7 +4,7 @@ title: Large scale analog neural computer with programmable architecture and pro
 image:
 authors: Van der Spiegel J, Donham C, Etienne-Cummings R, Fernando S, Mueller P, and Blackman D.
 year: 1994
-ref: Van der Spiegel _et al._ 1994.
+ref: Van der Spiegel et al. 1994.
 journal:
 pdf:
 doi:

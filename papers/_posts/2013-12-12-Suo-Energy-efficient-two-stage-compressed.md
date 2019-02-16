@@ -4,7 +4,7 @@ title: Energy-efficient two-stage compressed sensing method for implantable neur
 image:
 authors: Suo Y, Zhang J, Etienne-Cummings R, Tran TD, and Chin S.
 year: 2013
-ref: Suo _et al._ 2013.
+ref: Suo et al. 2013.
 journal:
 pdf:
 doi: 10.1109/BioCAS.2013.6679661

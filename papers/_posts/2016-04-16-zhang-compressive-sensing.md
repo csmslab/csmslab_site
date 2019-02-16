@@ -6,7 +6,7 @@ authors: Zhang J, Xiong T, Tran T, Chin S, Etienne-Cummings R.
 year: 2016
 ref: Zhang et al. 2016. Optics Express.
 journal: "Optics Express Vol. 24, No. 8: 9013-9024"
-pdf: /files/papers/zhang-compressive-sensing.pdf
+pdf: 
 doi: 10.1364/OE.24.009013
 ---
 

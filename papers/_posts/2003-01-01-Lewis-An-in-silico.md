@@ -4,7 +4,7 @@ title: "An in silico central pattern generator: silicon oscillator, coupling, en
 image:
 authors: Lewis MA, Etienne-Cummings R, Hartmann MJ, Xu ZR, and Cohen AH.
 year: 2003
-ref: "Lewis _et al._ 2003. Biological cybernetics vol. 88, no. 2: 137-151."
+ref: "Lewis et al. 2003. Biological cybernetics vol. 88, no. 2: 137-151."
 journal: Biological cybernetics
 pdf:
 doi: 10.1007/s00422-002-0365-7
