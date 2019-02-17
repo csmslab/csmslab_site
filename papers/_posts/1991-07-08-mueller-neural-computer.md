@@ -6,7 +6,7 @@ authors: Mueller P, Van Der Spiegel J, Agami V, Aziz P, Blackman D, Chance P, Ch
 year: 1991
 ref: Mueller et al. 1991. ICJNN 1991.
 journal: "ICJNN 1991: 463-468"
-pdf: /files/papers/mueller-neural-computer.pdf
+pdf: 
 doi: 10.1109/IJCNN.1991.155223
 ---
 

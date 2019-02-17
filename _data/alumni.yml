@@ -3,10 +3,6 @@
 #  gradyear:
 #  current:
 
-# TODO add visiting students
-# CHECK Mailing list
-# Sudarshan (?)
-
 - name: Elena Mancinelli
   degree: Visiting Researcher
   gradyear: 2018
@@ -86,7 +82,6 @@
 - name: Alex Russell
   degree: PhD
   gradyear: 2012
-  current: hmm?
 
 - name: Timothy Advani
   degree: MSE

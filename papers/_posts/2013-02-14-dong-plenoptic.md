@@ -6,7 +6,7 @@ authors: Dong F, Ieng SH, Savatier X, Etienne-Cummings R, Benosman R.
 year: 2013
 ref: Dong et al. 2013. IJRR.
 journal: International Journal of Robotics Research
-pdf: /files/papers/dong-plenoptic.pdf
+pdf: 
 doi: 10.1177/0278364912469420
 ---
 

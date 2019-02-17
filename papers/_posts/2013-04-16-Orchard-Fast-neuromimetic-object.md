@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: Fast Neuromimetic Object Recognition Using FPGA Outperforms GPU Implementations
+title: Fast neuromimetic object recognition using FPGA outperforms GPU implementations
 image:
-authors: Orchard G, Martin JG, Vogelstein RJ, Etienne-Cummings R.
+authors: Orchard G, Martin JG, Vogelstein RJ, and Etienne-Cummings R.
 year: 2013
-ref: Orchard et al. 2013. IEEE TNNLS.
-journal: IEEE Transactions on Neural Networks and Learning Systems.
-pdf: 
+ref: "Orchard et al. 2013. IEEE TNNLS."
+journal: IEEE transactions on neural networks and learning systems
+pdf:
 doi: 10.1109/TNNLS.2013.2253563
 ---
 

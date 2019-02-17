@@ -6,8 +6,9 @@ authors: Suo Y, Zhang J, Etienne-Cummings R, Tran TD, Chin S.
 year: 2013
 ref: Suo et al. IEEE BioCAS. 2013.
 journal: "IEEE BioCAS Conference 2013"
-pdf: /files/papers/suo-energy-efficient.pdf
+pdf:
 doi: 10.1109/BioCAS.2013.6679661
+project: cs-neural-recording
 ---
 
 # Abstract

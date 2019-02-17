@@ -2,7 +2,7 @@
 layout: paper
 title: Real-time 2D analog motion detector VLSI circuit
 image:
-authors: Etienne-Cummings RR, Fernando SA, Van der Spiegel J, and Mueller P.
+authors: Etienne-Cummings R, Fernando SA, Van der Spiegel J, and Mueller P.
 year: 1992
 ref: Etienne-Cummings et al. 1992.
 journal:

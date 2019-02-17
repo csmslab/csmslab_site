@@ -6,7 +6,7 @@ authors: Senarathna J, Murari K, Etienne-Cummings R, Thakor NV.
 year: 2012
 ref: Senarathna et al. 2012. IEEE TBioCAS.
 journal: "IEEE Transactions on Biomedical Circuits and Systems, vol. 6, no. 5: 437-445"
-pdf: /files/papers/senarathna-laser-speckle.pdf
+pdf: 
 doi: 10.1109/TBCAS.2012.2218106
 ---
 

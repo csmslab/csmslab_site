@@ -6,7 +6,7 @@ authors: Zhang J, Mitra S, Suo Y, Cheng A, Xiong T, Michon F, Welkenhuysen M, Kl
 year: 2015
 ref: Zhang et al. 2015. J. Neural Eng.
 journal: "J. Neural Eng. Vol. 12, No. 3"
-pdf: /files/papers/zhang-closed-loop-compressive.pdf
+pdf: 
 doi: 10.1088/1741-2560/12/3/036005
 ---
 

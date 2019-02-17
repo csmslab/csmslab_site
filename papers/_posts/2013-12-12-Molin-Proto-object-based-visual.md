@@ -4,7 +4,7 @@ title: Proto-object based visual saliency model with a motion-sensitive channel
 image:
 authors: Molin JL, Russell AF, Mihalas S, Niebur E, and Etienne-Cummings R.
 year: 2013
-ref: Molin et al. 2013.
+ref: Molin et al. 2013. BioCAS.
 journal: 2013 IEEE Biomedical Circuits and Systems Conference (BioCAS)
 pdf:
 doi: 10.1109/BioCAS.2013.6679631

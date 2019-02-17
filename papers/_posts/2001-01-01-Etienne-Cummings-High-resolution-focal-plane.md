@@ -2,7 +2,7 @@
 layout: paper
 title: High-resolution focal plane image processing
 image:
-authors: Etienne-Cummings R, Gruev DI, and Clapp M.
+authors: Etienne-Cummings R, Gruev V, and Clapp M.
 year: 2001
 ref: Etienne-Cummings, Gruev, and Clapp. 2001.
 journal:

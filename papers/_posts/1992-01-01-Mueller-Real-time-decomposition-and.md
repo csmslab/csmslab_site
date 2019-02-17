@@ -2,7 +2,7 @@
 layout: paper
 title: Real-time decomposition and recognition of acoustical patterns with an analog neural computer
 image:
-authors: Mueller P, Van der Spiegel J, Blackman D, Donham C, and Cummings R.
+authors: Mueller P, Van der Spiegel J, Blackman D, Donham C, and Etienne-Cummings R.
 year: 1992
 ref: Mueller et al. 1992.
 journal:

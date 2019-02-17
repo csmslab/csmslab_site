@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: Real Time Compressive Sensing Video Reconstruction in Hardware
+title: Real time compressive sensing video reconstruction in hardware
 image:
-authors: Orchard G, Zhang J, Suo Y, Dao M, Nguyen DT, Chin S, Posch C, Tran TD, Etienne-Cummings R.
+authors: Orchard G, Zhang J, Suo Y, Dao M, Nguyen DT, Chin S, Posch C, Tran TD, and Etienne-Cummings R.
 year: 2012
-ref: Orchard et al. 2012. IEEE JETCAS.
-journal: IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol. 2, no. 3
-pdf: 
+ref: "Orchard et al. 2012. IEEE Journal on Emerging and Selected Topics in Circuits and Systems."
+journal: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems vol. 2, no. 3: 604-615."
+pdf:
 doi: 10.1109/JETCAS.2012.2214614
 ---
 

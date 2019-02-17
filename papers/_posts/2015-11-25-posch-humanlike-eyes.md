@@ -6,7 +6,7 @@ authors: Posch C, Benosman R, Etienne-Cummings R.
 year: 2015
 ref: Posch, Benosman, Etienne-Cummings. 2015. IEEE Spectrum.
 journal: "IEEE  Spectrum, vol. 52, no. 12: 44-49"
-pdf: /files/papers/posch-humanlike-eyes.pdf
+pdf: 
 doi: 10.1109/MSPEC.2015.7335800
 ---
 

@@ -4,9 +4,9 @@ title: Reconstruction of neural action potentials using signal dependent sparse 
 image:
 authors: Zhang J, Suo Y, Mitra S, Chin SP, Tran TD, Yazicioglu F, and Etienne-Cummings R.
 year: 2013
-ref: Zhang et al. 2013.
-journal:
-pdf: 2013 IEEE International Symposium on Circuits and Systems (ISCAS2013)
+ref: Zhang et al. 2013. ISCAS.
+journal: 2013 IEEE International Symposium on Circuits and Systems (ISCAS2013)
+pdf:
 doi: 10.1109/ISCAS.2013.6572147
 project: cs-neural-recording
 ---

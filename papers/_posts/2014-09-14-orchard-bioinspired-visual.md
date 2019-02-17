@@ -6,7 +6,7 @@ authors: Orchard G, Etienne-Cummings R.
 year: 2014
 ref: Orchard and Etienne-Cummings. 2014. Proceedings of the IEEE.
 journal: "Proceedings of the IEEE. Vol. 102, No. 10"
-pdf: /files/papers/orchard-bioinspired-visual.pdf
+pdf: 
 doi: 10.1109/JPROC.2014.2346763
 ---
 

@@ -6,7 +6,7 @@ authors: Orchard G, Meyer C, Etienne-Cummings R, Posch C, Thakor N, Benosman R.
 year: 2015
 ref: Orchard et al. 2015. IEEE Transactions on Pattern Analysis and Machine Intelligence.
 journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 37 , No. 10: 2028-2040"
-pdf: /files/papers/orchard-hfirst.pdf
+pdf: 
 doi: 10.1109/TPAMI.2015.2392947
 ---
 

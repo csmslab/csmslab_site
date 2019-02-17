@@ -6,7 +6,7 @@ authors: Köklü G, Ghaye J, Etienne-Cummings R, Leblebici Y, De Micheli G, Carr
 year: 2013
 ref: Köklü et al. 2013. BioNanoScience.
 journal: "BioNanoScience Vol. 3, No. 4: 403-414"
-pdf: /files/papers/koklu-cmos-cameras.pdf
+pdf: 
 doi:  10.1007/s12668-013-0106-5
 ---
 

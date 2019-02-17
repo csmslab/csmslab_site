@@ -6,7 +6,7 @@ authors: Zhang J, Suo Y, Mitra S, Chin S, Hsiao C, Yazicioglu RF, Tran TD, Etien
 year: 2014
 ref: Zhang et al. 2014. IEEE TBioCAS.
 journal: IEEE Transactions on Biomedical Circuits and Systems.
-pdf: /files/papers/zhang-efficient-microsystem.pdf
+pdf: 
 doi: 10.1109/TBCAS.2013.2284254
 ---
 
