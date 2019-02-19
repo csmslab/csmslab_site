@@ -2,14 +2,14 @@
 layout: default
 title: CSMS Lab - Team
 categories:
- - team
+- team
 image_sliders:
- - team_slider
+- team_slider
 ---
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    {% include slider.html selector="team_slider" %}
-  </div>
+	<div class="col-md-8 col-md-offset-2">
+		{% include slider.html selector="team_slider" %}
+	</div>
 </div>
 
 <div class="bigspacer"></div>
@@ -28,20 +28,23 @@ image_sliders:
 {% for member in site.categories.team reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign columnindex = memberindex | modulo: 3 %}
-	{% if columnindex == 1 %} <!-- open a new row -->
+	{% if columnindex == 1 %}
+		<!-- open a new row -->
 		<div class="row">
 	{% endif %}
 	<div class="col-md-4 memberbox">
 		<div class="media">
-				<a class="pull-left" href="{{ member.url }}">
-				<img width=160 class="media-object" src="{{ member.image }}">
+			{% if member.image %}
+				<a class="pull-left" href="{{ member.url  | relative_url }}">
+					<img width=160 class="media-object" src="{{ site.baseurl }}{{ member.image }}">
 				</a>
-			 	<div class="media-body">
-				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+			{% endif %}
+			<div class="media-body">
+				<div class="head media-heading"><a href="{{ member.url | relative_url }}" class="off">{{ member.title }}</a></div>
 				<p class="note">{{ member.position }}</p>
-				</div>
+			</div>
 		</div>
-    </div>
+	</div>
 	{% if columnindex == 0 %}
 		</div>
 		<div class="bigspacer"></div>
@@ -70,26 +73,29 @@ image_sliders:
 {% for alum in site.data.alumni %}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign columnindex = memberindex | modulo: 4 %}
-	{% if columnindex == 1 %} <!-- open a new row -->
+	{% if columnindex == 1 %}
+		<!-- open a new row -->
 		<div class="row">
 	{% endif %}
-		<div class="col-md-3 memberbox">
-			<div class="media">
- 			 	<div class="media-body">
-    				<div class="head"><p>{{ alum.name }}</p></div>
-					{% if alum.gradyear %}
-						{% if alum.current %}
-    						<p class="note">{{alum.degree}} {{alum.gradyear}}, now at {{ alum.current }}</p>
-						{% else %}
-							<p class="note">{{alum.degree}} {{alum.gradyear}}</p>
-						{% endif %}
+	<div class="col-md-3 memberbox">
+		<div class="media">
+			<div class="media-body">
+				<div class="head">
+					<p>{{ alum.name }}</p>
+				</div>
+				{% if alum.gradyear %}
+					{% if alum.current %}
+						<p class="note">{{ alum.degree }} {{ alum.gradyear }}, now at {{ alum.current }}</p>
 					{% else %}
-						<p class="note">{{alum.degree}}</p>
+						<p class="note">{{ alum.degree }} {{ alum.gradyear }}</p>
 					{% endif %}
-  				</div>
+				{% else %}
+					<p class="note">{{ alum.degree }}</p>
+				{% endif %}
 			</div>
-			<div class="bigspacer"></div>
-        </div>
+		</div>
+		<div class="bigspacer"></div>
+	</div>
 	{% if columnindex == 0 %}
 		</div>
 		<div class="bigspacer"></div>

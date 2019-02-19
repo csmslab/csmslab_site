@@ -2,29 +2,32 @@
 layout: default
 title: CSMS Lab - Publications
 categories:
- - papers
+- papers
 ---
 
 {% assign paperindex = 0 %}
 {% for paper in site.categories.papers %}
 	{% assign paperindex = paperindex | plus: 1 %}
 	{% assign columnindex = paperindex | modulo: 3 %}
-	{% if columnindex == 1 %} <!-- open a new row -->
+	{% if columnindex == 1 %}
+		<!-- open a new row -->
 		<div class="row">
 	{% endif %}
-		<div class="col-md-4 paperbox">
-			<div class="media">
-  				<a class="pull-right" href="{{ paper.url }}">
-    				<img width=100 class="media-object" src="{{ paper.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.ref }}</p>
-  				</div>
+	<div class="col-md-4 paperbox">
+		<div class="media">
+			{% if paper.image %}
+				<a class="pull-right" href="{{ paper.url | relative_url }}">
+					<img width=100 class="media-object" src="{{ site.baseurl }}{{ paper.image }}">
+				</a>
+			{% endif %}
+			<div class="media-body">
+				<div class="smallhead media-heading"><a href="{{ paper.url | relative_url }}" class="off">{{ paper.title }}</a></div>
+				<p class="note">{{ paper.ref }}</p>
 			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>
-        </div>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="spacer"></div>
+	</div>
 	{% if columnindex == 0 %}
 		</div>
 	{% endif %}
@@ -38,7 +41,7 @@ categories:
 		<div id="scroll" class="centered-pills">
 			<ul class="nav nav-pills note">
 				<li role="presentation">
-					<a class="off" href="/papers/">
+					<a class="off" href="{{ page.url | relative_url }}">
 						<i class="fa fa-chevron-up fa-fw"></i> Back to top
 					</a>
 				</li>

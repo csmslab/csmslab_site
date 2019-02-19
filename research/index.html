@@ -20,11 +20,13 @@ categories:
 	{% endif %}
 		<div class="col-md-6 projectbox">
 			<div class="media">
-  				<a class="pull-left" href="{{ project.url }}">
-    				<img width=200 class="media-object" src="{{ project.image }}">
-  				</a>
+				{% if project.image %}
+	  				<a class="pull-left" href="{{ project.url | relative_url }}">
+	    				<img width=200 class="media-object" src="{{ project.image | prepend: site.baseurl }}">
+	  				</a>
+				{% endif %}
  			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
+    				<div class="head media-heading"><a href="{{ project.url | relative_url }}" class="off">{{ project.title }}</a></div>
     				<p class="note">{{ project.blurb }}</p>
   				</div>
 			</div>
@@ -58,11 +60,13 @@ categories:
 	{% endif %}
 		<div class="col-md-6 projectbox">
 			<div class="media">
-  				<a class="pull-left" href="{{ project.url }}">
-    				<img width=200 class="media-object" src="{{ project.image }}">
-  				</a>
+				{% if project.image %}
+	  				<a class="pull-left" href="{{ project.url | relative_url }}">
+	    				<img width=200 class="media-object" src="{{ project.image | prepend: site.baseurl }}">
+	  				</a>
+				{% endif %}
  			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
+    				<div class="head media-heading"><a href="{{ project.url | relative_url }}" class="off">{{ project.title }}</a></div>
     				<p class="note">{{ project.blurb }}</p>
   				</div>
 			</div>

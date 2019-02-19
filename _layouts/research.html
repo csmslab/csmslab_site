@@ -30,7 +30,7 @@ layout: default
 						{% assign printed = false %}
 					{% for member in site.categories.team %}
 						{% if member.title == researcher %}
-							<a class="off" href="{{ member.url }}">{{ researcher }}</a>
+							<a class="off" href="{{ member.url | relative_url }}">{{ researcher }}</a>
 							{% assign printed = true %}
 						{% endif %}
 					{% endfor %}
@@ -70,7 +70,7 @@ layout: default
 						<div class="pad-left note">
 							<div class="smallspacer"></div>
 							<i class="fa fa-file-text-o fa-fw"></i>
-							<a class="off" href="{{ paper.url }}">{{ paper.title }}</a>
+							<a class="off" href="{{ paper.url | relative_url }}">{{ paper.title }}</a>
 							<div class="smallspacer"></div>
 						</div>
 					{% endif %}

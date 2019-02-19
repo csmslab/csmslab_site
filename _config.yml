@@ -8,3 +8,5 @@ department:
   name: Electrical & Computer Engineering
 permalink: none
 markdown: kramdown
+baseurl: /csms
+url: "https://engineering.jhu.edu"

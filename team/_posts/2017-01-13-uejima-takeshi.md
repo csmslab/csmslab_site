@@ -10,4 +10,6 @@ image: /images/team/uejima-takeshi.jpg
 surname-first: true
 ---
 
-Takeshi graduated from the University of Tokyo and received a master’s degree in Precision Engineering in 2009. He has 8 years of research and engineering experience at the Japanese Ministry of Defense. His research interests include neuromorphic computing and improving artificial intelligence by understanding biological nervous systems. He is currently working on [visual saliency detection](/research/proto-object-saliency).
+Takeshi graduated from the University of Tokyo and received a master’s degree in Precision Engineering in 2009. He has 8 years of research and engineering experience at the Japanese Ministry of Defense. His research interests include neuromorphic computing and improving artificial intelligence by understanding biological nervous systems. He is currently working on [visual saliency detection][1].
+
+[1]: {{ site.baseurl }}{% post_url 2019-01-21-proto-object-saliency %}

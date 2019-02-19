@@ -7,21 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
 
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
-	<link href="/css/style.css" rel="stylesheet" media="screen">
+	<link href="{{ site.baseurl }}/css/style.css" rel="stylesheet" media="screen">
 	{% include slider_styles.html %}
 
 	<!-- Favicon -
 	<link rel="shortcut icon" href="/images/favicon.png"/>-->
 
 	<!-- jQuery -->
-	<script src="/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 
 	<!-- Bootstrap -->
-	<script src="/js/transition.js"></script>
-	<script src="/js/collapse.js"></script>
+	<script src="{{ site.baseurl }}/js/transition.js"></script>
+	<script src="{{ site.baseurl }}/js/collapse.js"></script>
 
 </head>
 
@@ -41,7 +41,7 @@
 					<!--
 					<object class="logo navbar-brand" data="/images/neuroimg.jpg" type="image/jpg"></object>
 					-->
-					<a class="navbar-brand" href="/">CSMS Lab</a>
+					<a class="navbar-brand" href="{{ site.baseurl }}/">CSMS Lab</a>
 					{% endif %}
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse-element">
@@ -51,27 +51,33 @@
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/research/">Research</a>
+						<a href="{{ site.baseurl }}/research">Research</a>
 						</li>
 						{% if page.categories.first == 'papers' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/papers/">Papers</a>
+						<a href="{{ site.baseurl }}/papers">Papers</a>
 						</li>
 						{% if page.categories.first == 'team' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/team/">Team</a></li>
+						<a href="{{ site.baseurl }}/team">Team</a></li>
 						{% if page.categories.first == 'teaching' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/teaching/">Teaching</a></li>
+						<a href="{{ site.baseurl }}/teaching">Teaching</a></li>
+						{% if page.categories.first == 'blog' %}
+						<li class="active">
+						{% else %}
+						<li>
+						{% endif %}
+						<a href="{{ site.baseurl }}/blog">Blog</a></li>
 					</ul>
 				</div>
 			</div>
