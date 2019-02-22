@@ -7,7 +7,7 @@ category: blog
 tags: []
 ---
 
-Congratulations to [Adam Khalifa][1] for successfully defending his dissertation, __Design, Fabrication and Validation of a Highly Miniaturized Wirelessly Powered Neural Implant__.
+Congratulations to [Adam Khalifa][1] for successfully defending his dissertation, __Design, Fabrication and Validation of a Highly Miniaturized Wirelessly Powered Neural Implant__. He's headed to Harvard next for his post-doctoral work.
 
 ![The lab celebrating Adam's successful defense.]({{ site.baseurl }}/images/blog/adam-khalifa-defense.jpg){:width="800vw"}
 
