@@ -15,7 +15,7 @@ This site is based on the generous open source code of a few other [lab][3] [web
 
 
 [1]: https://jekyllrb.com
-[2]: {{ site.baseurl }}{% post_url 2017-01-14-adam-cellon %}
+[2]: {{ site.baseurl }}{% post_url /team/2017-01-14-adam-cellon %}
 [3]: https://bedford.io
 [4]: https://drummonlab.org
 [5]: https://github.com/csmslab/csmslab.github.io

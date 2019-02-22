@@ -21,7 +21,7 @@ Design/Test an implantable UWB wireless transceiver and antenna used for biotele
 
 ## Research Accomplishments:
 
-1.  Designed UWB transmit/receive system using commercial off the shelf (COTS) components which communicated at data rates upwards of 50 Mb/s. Results published in [BioCAS 2011]({{ site.baseurl }}{% post_url 2011-01-01-Duncan-A-low-cost-COTS %}).
+1.  Designed UWB transmit/receive system using commercial off the shelf (COTS) components which communicated at data rates upwards of 50 Mb/s. Results published in [BioCAS 2011]({{ site.baseurl }}{% post_url papers/2011-01-01-Duncan-A-low-cost-COTS %}).
 2.  Designed and simulated implanted UWB antenna in FEA analysis tool.
 3.  Generated a trade study tool which identifies the pushing factors of a wireless biotelemetry link and determines Tx-Rx range for the system as a function of safe power levels in the implanted device, bit error rate, data rate and system bandwidth.
 
