@@ -1,6 +1,7 @@
 ---
 ---
 // TODO: customize all this!
+@import (css) url("https://fonts.googleapis.com/css?family=Montserrat");
 @import "/css/bootstrap/bootstrap.less";
 @brand-primary: #DD2D2D;
 @line-height-base: 1.6;
@@ -17,6 +18,12 @@
 @fa-font-path: "font";
 @import "/css/solarized.less";
 @import "/css/katex.less";
+
+.font(@fontFamily: Montserrat, sans-serif; @fontWeight: normal; @fontStyle: normal) {
+    font-family: @fontFamily;
+    font-style: @fontStyle;
+    font-weight: @fontWeight;
+}
 
 .h1,
 h1 {
@@ -186,6 +193,7 @@ h6 {
 }
 /* other */
 body {
+	.font;
 	font-weight: 300;
 }
 

@@ -6,7 +6,7 @@ institution:
 department:
   url: "https://ece.jhu.edu"
   name: Electrical & Computer Engineering
-permalink: none
+permalink: /:categories/:title/
 markdown: kramdown
 baseurl: /csms
 url: "https://engineering.jhu.edu"
