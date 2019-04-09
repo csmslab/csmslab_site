@@ -10,3 +10,4 @@ permalink: /:categories/:title/
 markdown: kramdown
 baseurl: /csms
 url: "https://engineering.jhu.edu"
+github: "https://github.com/csmslab"
