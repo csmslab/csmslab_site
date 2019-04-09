@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: Montserrat;
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -8286,6 +8287,16 @@ button.close {
 }
 .katex .mtable .col-align-r > .vlist {
   text-align: right;
+}
+.font {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+html {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 .h1,
 h1 {
