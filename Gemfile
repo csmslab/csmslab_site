@@ -8,11 +8,11 @@ gem "jekyll", ">= 3.6.3"
 gem "redcarpet"
 
 # compiling less
-gem 'therubyracer'
-gem 'less'
+# gem 'therubyracer'
+# gem 'less'
 
 # minifying
-gem 'jekyll-press'
+gem 'jekyll-minifier'
 
 # octokit
 gem 'octokit'

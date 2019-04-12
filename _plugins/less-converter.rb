@@ -1,10 +1,10 @@
 # less converter via https://gist.github.com/KBalderson/5689220
-
+=begin
 module Jekyll
   class LessConverter < Converter
     safe true
     priority :high
-    
+
     def setup
       return if @setup
       require 'less'
@@ -14,15 +14,15 @@ module Jekyll
       STDERR.puts ' $ [sudo] gem install less'
       raise FatalException.new("Missing dependency: less and/or therubyracer")
     end
-    
+
     def matches(ext)
       ext =~ /less|lcss/i
     end
-    
+
     def output_ext(ext)
       ".css"
     end
-    
+
 	def convert(content)
       setup
       begin
@@ -35,3 +35,5 @@ module Jekyll
 
   end
 end
+
+=end
