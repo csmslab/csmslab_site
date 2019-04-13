@@ -3,27 +3,10 @@ layout: default
 title: CSMS Lab - Blog - Archive
 categories:
  - blog
+archive: True
 ---
 
-<div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation">
-					<a class="off" href="{{ page.url | relative_url | remove: 'archive/'}}">
-						<i class="fa fa-refresh fa-fw"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation" class="active">
-					<a class="off" href="{{ page.url | relative_url }}">
-						<i class="fa fa-list-ul fa-fw"></i> Index
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bigspacer"></div>
-	</div>
-</div>
+{% include blog_pills.html %}
 
 {% for post in site.categories.blog %}
 

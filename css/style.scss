@@ -1,10 +1,13 @@
 ---
 ---
-
-// TODO: customize all this!;
-//@import (css) url("https://fonts.googleapis.com/css?family=Montserrat");
-@import 'bootstrap';
-@import 'fontawesome';
+// Imports here are relative to _sass/ (thanks to Jekyll)
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import 'bootstrap/bootstrap';
+$fa-font-path: "fa-webfonts"; // Set path for fontawesome (relative to css/
+@import 'fontawesome/fontawesome';
+@import 'fontawesome/solid';
+@import 'fontawesome/regular';
+@import 'fontawesome/brands';
 
 $brand-primary: #DD2D2D;
 $line-height-base: 1.6;
@@ -15,61 +18,32 @@ $pre-color: #586E75;
 $well-bg: #f8f8f8;
 $code-bg: #f8f8f8;
 $pre-bg: #f8f8f8;
-//$nav-pills-active-link-hover-bg: $navbar-default-bg;
-//$nav-pills-active-link-hover-color: $gray;
-//@import "/css/font-awesome/font-awesome.less";
-$fa-font-path: "fa-webfonts";
+$navbar-default-bg: $gray-400; $gray: $gray-400;
+$nav-pills-active-link-hover-bg: $navbar-default-bg;
+$nav-pills-active-link-hover-color: $indigo;
+
+$font-stack: Montserrat, sans-serif;
 //@import "/css/solarized.less";
 //@import "/css/katex.less";
 
 
 
 .font {
-    font-family: Montserrat, sans-serif;
+    font-family: $font-stack;
     font-style: normal;
     font-weight: normal;
 }
 
-.h1,
-h1 {
-	font-size: floor($font-size-base * 2.50);
-}
-/* ~34px */
-.h2,
-h2 {
-	font-size: floor($font-size-base * 2.15);
-}
-/* ~30px */
-.h3,
-h3 {
-	font-size: ceil($font-size-base * 1.70);
-}
-/* ~24px */
-.h4,
-h4 {
-	font-size: ceil($font-size-base * 1.25);
-}
-/* ~18px */
-.h5,
-h5 {
-	font-size: $font-size-base;
-}
-
-.h6,
-h6 {
-	font-size: ceil($font-size-base * 0.85);
-}
-/* ~12px */
 // 20px gutter
 .reduced-gutter.row {
 	margin-right: -10px;
 	margin-left: -10px;
 }
-
 .reduced-gutter {
 	padding-right: 10px;
 	padding-left: 10px;
 }
+
 /* typekit */
 .wf-loading {
 	visibility: hidden;
@@ -78,20 +52,15 @@ h6 {
 .wf-active {
 	visibility: visible;
 }
+
 /* general */
 .container {
 	padding-left: 25px;
 	padding-right: 25px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: 300;
-	/* Museo */
+.body-container {
+	font-family: $font-stack;
 }
 
 .center {
@@ -103,6 +72,8 @@ h6 {
 .text-center {
 	text-align: center;
 }
+
+
 /* logo */
 .logo {
 	width: 60px;
@@ -121,6 +92,8 @@ h6 {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+
 /* navbar */
 .navbar-brand {
 	font-size: 30px;
@@ -130,15 +103,11 @@ h6 {
 
 .navbar-nav {
 	font-size: 30px;
-	font-weight: 100;
-	/* Museo */
-}
-
-.navbar-text {
-	font-size: 15px;
 	font-weight: 300;
 	/* Museo */
 }
+
+
 /* headings */
 .bigtitle {
 	font-size: 60px;
@@ -189,13 +158,6 @@ h6 {
 	/* Museo */
 }
 
-.text-gray {
-	color: #fff;
-}
-
-.text-dark-gray {
-	color: #fff;
-}
 /* other */
 body {
 	font-weight: 300;
@@ -238,10 +200,6 @@ pre code {
 //	@include table;
 //	@include table-striped;
 //}
-
-img {
-//	@include img-responsive;
-}
 
 img.offset {
 	float: right;
@@ -353,12 +311,20 @@ blockquote {
 .footernav {
 	//@include note;
 	//@include text-dark-gray;
-	//text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18px;
+	color: $gray-800;
+	text-align: center;
 	margin-right: 2px;
 }
 
 .centered-pills {
-	//text-align: center;
+	text-align: center;
+
+	.nav-pills {
+		display: inline-block;
+	}
 }
 
 .centered-pills ul.nav-pills {
@@ -390,12 +356,12 @@ blockquote {
 	min-width: 400px;
 	height: auto;
 }
-/*.banner-center-text {
+.banner-center-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 .banner-bigtitle {
 	//@include bigtitle;
 	font-weight: 300;
@@ -438,6 +404,9 @@ blockquote {
 		opacity: 0;
 	}
 }
+
+
+
 //
 // Jumbotron
 // --------------------------------------------------
@@ -454,7 +423,7 @@ blockquote {
 	.h1,
 	h1 {
 		//color: $jumbotron-heading-color;
-		color: $pre-bg;
+		color: $white;
 		text-align: center;
 	}
 
@@ -476,7 +445,8 @@ blockquote {
 	.container {
 		max-width: 100%;
 	}
-	@media screen {//and (min-width: $screen-sm-min) {
+
+	@media screen and (min-width: map-get($grid-breakpoints, lg)) {
 		padding: ($jumbotron-padding * 1.6) 0;
 
 		.container &,

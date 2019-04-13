@@ -3,28 +3,10 @@ layout: default
 title: CSMS Lab - Blog
 categories:
  - blog
-category: blog
+archive: False
 ---
 
-<div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation" class="active">
-					<a class="off" href="{{ page.url | relative_url }}">
-						<i class="fa fa-refresh fa-fw"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation">
-					<a class="off" href="{{ page.url | relative_url | append: 'archive' }}">
-						<i class="fa fa-list-ul fa-fw"></i> Index
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bigspacer"></div>
-	</div>
-</div>
+{% include blog_pills.html %}
 
 <div class="post-list">
 
@@ -117,13 +99,11 @@ category: blog
 <div class="row">
 	<div class="col-md-12">
 		<div id="scroll" class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation">
-					<a class="off" href="{{ page.url | relative_url }}">
-						<i class="fa fa-chevron-up fa-fw"></i> Back to top
-					</a>
-				</li>
-			</ul>
+			<nav class="nav nav-pills">
+				<a class="nav-item nav-link" href="{{ page.url | relative_url }}">
+					<i class="fa fa-chevron-up fa-fw"></i> Back to top
+				</a>
+			</nav>
 		</div>
 	</div>
 </div>

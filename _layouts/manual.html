@@ -43,27 +43,21 @@ layout: default
 	<div class="row">
 		<div class="col-md-12">
 			<div class="centered-pills">
-				<ul class="nav nav-pills note">
+				<nav class="nav nav-pills">
 					{% if page.prevpage %}
-						<li role="presentation">
-							<a class="off" href="{{ site.baseurl }}/teaching/{{ page.prevpage }}">
-								<i class="fa fa-arrow-left fa-fw"></i> Prev
-							</a>
-						</li>
-					{% endif %}
-					<li role="presentation">
-						<a class="off" href="{{ site.baseurl }}/teaching/manual-1">
-							<i class="fa fa-home fa-fw"></i> Home
+						<a class="nav-item nav-link" href="{{ site.baseurl }}/teaching/{{ page.prevpage }}">
+						  <i class="fa fa-arrow-left fa-fw"></i> Prev
 						</a>
-					</li>
-					{% if page.nextpage %}
-						<li role="presentation">
-							<a class="off" href="{{ site.baseurl }}/teaching/{{ page.nextpage }}">
-								Next <i class="fa fa-arrow-right fa-fw"></i>
-							</a>
-						</li>
 					{% endif %}
-				</ul>
+				  	<a class="nav-item nav-link" href="{{ site.baseurl }}/teaching/manual-1">
+						<i class="fas fa-home fa-fw"></i> Home
+					</a>
+					{% if page.nextpage %}
+						<a class="nav-item nav-link" href="{{ site.baseurl }}/teaching/{{ page.nextpage }}">
+							Next <i class="fas fa-arrow-right fa-fw"></i>
+						</a>
+					{% endif %}
+				</nav>
 			</div>
 			<div class="bigspacer"></div>
 		</div>

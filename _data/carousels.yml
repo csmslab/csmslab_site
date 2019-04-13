@@ -1,0 +1,13 @@
+# team page slider
+- selector: team_slider
+  images:
+    - src: /images/team/slider/kickball-2018.png
+      alt: ECE Kickball Tournament Champions 2018
+    - src: /images/team/slider/old-lab-sitting.jpg
+      alt:
+    - src: /images/team/slider/old-lab-tree.jpg
+      alt:
+    - src: /images/team/slider/kickball-2016.jpg
+      alt: ECE Kickball Tournament Champions 2016
+    - src: /images/team/slider/coffee-at-brody.png
+      alt:

@@ -4,6 +4,7 @@ title: Uejima Takeshi
 position: PhD Student
 email: tuejima1@jhu.edu
 # scholar:
+github: tuejima-JHU
 image: /images/team/uejima-takeshi.jpg
 # cv: /pdfs/team/alvason-li-cv.pdf
 # alumni: true

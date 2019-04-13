@@ -1,0 +1,24 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="centered-pills">
+			<nav class="nav nav-pills">
+				{% if page.archive %}
+					<a class="nav-item nav-link" href="{{ page.url | relative_url | remove: 'archive/'}}">
+						<i class="fas fa-sync-alt fa-fw"></i> Timeline
+					</a>
+					<a class="nav-item nav-link active" href="{{ page.url | relative_url }}">
+						<i class="fas fa-list-ul fa-fw"></i> Index
+					</a>
+				{% else %}
+					<a class="nav-item nav-link active" href="{{ page.url | relative_url }}">
+						<i class="fas fa-sync-alt fa-fw"></i> Timeline
+					</a>
+					<a class="nav-item nav-link" href="{{ page.url | relative_url }}/archive/">
+						<i class="fas fa-list-ul fa-fw"></i> Index
+					</a>
+				{% endif %}
+			</nav>
+		</div>
+		<div class="bigspacer"></div>
+	</div>
+</div>
